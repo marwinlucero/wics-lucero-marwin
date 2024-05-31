@@ -39,7 +39,6 @@ const TransactionForm = ({ addTransaction }) => {
               type="number"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
-              placeholder="Usa il segno meno per le spese"
               required
             />
           </label>
